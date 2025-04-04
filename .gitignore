@@ -1,0 +1,5 @@
+# .gitignore
+
+# Github Actions Configs
+.github//workflows/*.secrets*
+.github//workflows/.env*
