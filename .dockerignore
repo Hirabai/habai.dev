@@ -1,0 +1,7 @@
+# Enviroment auto-generated folders
+.git
+.vscode
+.env
+
+# Build output
+build

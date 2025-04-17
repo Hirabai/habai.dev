@@ -1,2 +1,7 @@
 [build]
 base = "include/"
+command = "bun run build"
+publish = "include/dist"
+
+[build.environment]
+NODE_VERSION = "20"

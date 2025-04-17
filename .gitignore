@@ -1,5 +1,8 @@
 # .gitignore
 
+# Builds and Dependencies
+node_modules/
+
 # Github Actions Configs
 .github//workflows/*.secrets*
 .github//workflows/.env*
