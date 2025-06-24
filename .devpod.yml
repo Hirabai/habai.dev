@@ -1,0 +1,10 @@
+name: vite-roughdraft
+image: node:20-alpine
+fowardPorts:
+  - 5173
+
+initializedCommand: npm install
+
+tasks:
+  dev:
+    command: npm run dev

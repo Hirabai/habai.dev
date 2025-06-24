@@ -1,7 +1,7 @@
 # .gitignore
 
-# Builds and Dependencies
-node_modules/
+# local git
+.git
 
 # Github Actions Configs
 .github//workflows/*.secrets*
