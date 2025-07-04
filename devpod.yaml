@@ -1,0 +1,3 @@
+dotfiles:
+  repository: "git@github.com:Hirabai/dotfiles.git"
+  installCommand: "bash ~/.dotfiles/setup.sh"

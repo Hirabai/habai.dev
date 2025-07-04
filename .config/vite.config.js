@@ -1,6 +1,6 @@
 /*
  * I am thinking that Vite would be a good framework to learn while building this project.
- * Why Vite? Because it's french and the front page of their website looked fancy enough.
+ * Why Vite? Because it's a french word and the front page of their website looked fancy enough.
  */ 
 
 import Markdown from 'vite-plugin-md';

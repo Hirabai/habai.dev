@@ -1,8 +1,10 @@
-# .gitignore
+# .gitignore for stuff you want git to ignore
 
 # local git
 .git
 
 # Github Actions Configs
-.github//workflows/*.secrets*
-.github//workflows/.env*
+.github/workflows/*.secrets*
+.github/workflows/.env*
+
+
