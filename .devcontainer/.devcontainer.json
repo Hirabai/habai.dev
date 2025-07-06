@@ -1,14 +1,8 @@
 {
-  "name": "three.js project",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "features": {
-    "ghcr.io/devcontainer/features/node:1": {
-      "version": "20"
-    }
-  },
-  "postCreateCommand": "git clone git@github.com:Hirabai/dotfiles ~/.dotfiles && bash ~/.dotfiles/script/bootstrap.sh",
-  "fowardPorts": [5173],
-  "remoteUser": "neovim"
+	"name": "Three.js + Vite Project",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"forwardPorts": [5173],
+  "postCreateCommand": "git clone git@github.com:Hirabai/dotfiles.git ~/.dotfiles"
 }

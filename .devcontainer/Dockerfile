@@ -1,5 +1,11 @@
-FROM mcr.microsoft.com/devcontainers/base:ubuntu
+FROM debian:bullseye-slim
+RUN apt-get update && apt-get install -y --no-install-recommends \
+curl gnupg && \
+curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+apt-get install -y nodejs && \
+apt-get clean
 
-RUN apt-get update && apt-get install -y \
-  git curl neovim unzip \
-  && rm -rf /var/lib/apt/lists/*
+RUN npm install three \
+npm install vite --save-dev
+
+CMD ["bash"]
