@@ -1,5 +1,5 @@
 {
-	"name": "Three.js + Vite Project",
+	"name": "Three.js and Vite Project",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},

@@ -1,2 +1,10 @@
+name: Devpod Setup
+
+mounts:
+  - ~/.ssh:/home/habai/.ssh:ro
+  - ~/.config/nvim:/home/
+
+
+
 ssh:
   enable: true
