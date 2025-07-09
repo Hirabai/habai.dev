@@ -10,11 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setting up the public directory
-        run:
-          mkdir -p public
-          cp -r src/* public/ || echo "Copy attempt failed"
-
       - name: Deploying to Netlify
         uses: netlify/actions/cli@v2
         with:
