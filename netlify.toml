@@ -1,1 +1,3 @@
-# Just netlify configs for github actions
+[build]
+	base = "public"
+	publish = "public"

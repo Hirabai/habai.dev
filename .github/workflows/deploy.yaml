@@ -1,39 +1,25 @@
-# These config files always seem daunting but I will do my best to break them down in this roughdraft.
-
-name: Quick Deploy roughdraft to Netlify # This can be whatever you want. We are essentially giving a name to this workflow.
+name: Deploying site to Netlify
 
 on:
   push:
-    branches: [main] # This is a simple trigger that github will watch for. Basically whenever you push changed to your repo, this will trigger an event.
+    branches: [main]
 
-jobs: # One of these events will be this jobs section.
-  build-deploy:
+jobs:
+  build:
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
 
-  steps:
-  - uses: actions/checkout@v4
-  - uses: actions/setup-node@v4 # Here we see that our environment is set up to run on an ubuntu server, checkout@v4 and setup-node@v4 are kind of like modules that github provides.
-   
-with: node-version:20 # This specifies the Node version.
+      - name: Setting up the public directory
+        run: | 
+          mkdir -p public
+          cp -r src/* public/ || echo "Copy attempt failed"
+          ls -la public/ # Checking if we have the right files where we want them
 
-# Using our node package manager that we got from Node.js, we can install and update our node packages.
-- run: npm install 
-- run: npm run build 
-
-# This section will deal with the information github needs to communicate with Netlify.
-
-name: Deploy to Netlify
-
-uses: nwtgck/action-netlify@v2
-
-with:
-
-publish-dir: './dist'
-
-production-deploy: true # don't know what that does tbh
-
-deploy-message: "Deployed from Github Actions" # message for reassurance, we got this!
-
-env: # env variables, these secret tokens are used to authenticate the connection between github and Netlify.
-NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Deploying to Netlify
+        uses: netlify/actions/cli@v2
+        with:
+          args: deploy --dir=public --prof
+        env:
+          NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE_ID}}
+          NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_AUTH_TOKEN}}
