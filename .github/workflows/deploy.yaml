@@ -1,19 +1,23 @@
-name: Deploying site to Netlify
+name: pushing using action-netlify-cli from github
 
-on:
-  push:
-    branches: [main]
-
+on: [push]
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
 
-      - name: Deploying to Netlify
-        uses: netlify/actions/cli@v2
+      - name: Setting up public directory
+        run: | 
+          rm -rf public
+          mkdir -p public
+          cp -r src/* public/
+          ls -la public/
+
+      - name: Publish
+        uses: South-Paw/action-netlify-cli@v2
+        id: netlify
         with:
-          args: deploy --dir=src --prod
-        env:
-          NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE_ID}}
-          NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_AUTH_TOKEN}}
+          args: 'deploy --dir \"./public\" --message \"draft [${{ github.sha }]}\"'
+          env:
+            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+            NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

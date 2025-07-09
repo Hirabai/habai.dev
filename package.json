@@ -1,2 +1,10 @@
-
-
+{
+	"name": "here we go again",
+	"private": true,
+	"scripts": {
+		"build": "mkdir -p public && cp -r src/* public/",
+		"clean": "rm -rf public/"
+	},
+	"dependencies": {},
+	"devDependencies": {}
+}
