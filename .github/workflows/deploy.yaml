@@ -11,15 +11,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setting up the public directory
-        run: | 
+        run:
           mkdir -p public
           cp -r src/* public/ || echo "Copy attempt failed"
-          ls -la public/ # Checking if we have the right files where we want them
 
       - name: Deploying to Netlify
         uses: netlify/actions/cli@v2
         with:
-          args: deploy --dir=public --prof
+          args: deploy --dir=public --prod
         env:
           NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE_ID}}
           NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_AUTH_TOKEN}}
