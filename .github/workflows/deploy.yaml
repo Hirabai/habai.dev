@@ -13,7 +13,7 @@ jobs:
       - name: Deploying to Netlify
         uses: netlify/actions/cli@v2
         with:
-          args: deploy --dir=public --prod
+          args: deploy --dir=src --prod
         env:
           NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE_ID}}
           NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_AUTH_TOKEN}}
