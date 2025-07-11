@@ -1,1 +1,3 @@
-// vite build configs
+export default {
+	// Add configs here
+}
