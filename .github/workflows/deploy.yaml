@@ -1,15 +1,26 @@
-name: Deploying to Netlify
-
+name: Deploying vite build output to Netlify
 on: [push]
 jobs:
-  publish:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Publish to netlify
+      - name: Chekout
+        uses: actions/checkout@v4
+
+      - name: Build Process
+        run: | 
+          npm ci
+          npm run build
+        continue-on-error: false
+
+      - name: Check our dist directory to see if it exists
+        run: ls -la dist
+
+      - name: Deploying Site
         uses: South-Paw/action-netlify-cli@v2
-        id: netlify
         with:
-          args: 'deploy --dir \"./public\" --message \"draft [${{ github.sha }}]\"'
-          env:
-            NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-            NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          publish-dir: ./dist
+          production-branch: main
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
