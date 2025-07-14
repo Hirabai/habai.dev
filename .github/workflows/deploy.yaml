@@ -13,13 +13,10 @@ jobs:
           npm run build
         continue-on-error: false
 
-      - name: Check our dist directory to see if it exists
-        run: ls -la dist
-
       - name: Deploying Site
         uses: South-Paw/action-netlify-cli@v2
         with:
-          publish-dir: ./dist
+          publish-dir: dist
           production-branch: main
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
