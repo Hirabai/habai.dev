@@ -13,10 +13,19 @@ jobs:
           npm run build
         continue-on-error: false
 
+      - name: Build output
+        run: | 
+          echo "current directory:"
+          pwd
+          echo "all files:"
+          ls -al
+          echo "checking dist. . ."
+          ls -al dist || echo "yea dist has had better days"
+
       - name: Deploying Site
         uses: South-Paw/action-netlify-cli@v2
         with:
-          publish-dir: dist
+          folder: ${{ github.workspace }}/dist
           production-branch: main
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
