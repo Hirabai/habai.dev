@@ -1,11 +1,22 @@
 # habai.dev
 
-The idea is to create a blog page using tools that I want to learn.
+## What is this project about?
+This project is going to be a website that will display what I've learned as I grow.
+The overall structure is going to be inspired from the second-brain systems used with programs like Obsidian.
+For the past few days I have been brainstorming on the design process.
 
-I kept on getting frustrated with high level abstractions while learning how to program with microsoft visual studio and vscode, which then led me to look into neovim and devcontainers.
+The idea is to convey information in a way that is intuitive.
+Not only displaying information in a well written blog post, but also working with media to express nuances words can't really convey.
+We'll see how that works out.
 
-I took some time learning other things unrelated to programming, but joining a skool community called Kubercraft has led me back to these tools, and so now I am digging deeper into the command line.
+The second piece of this project will be purely technical.
+Building skills in:
+- Github Action workflows
+- Web design with analytics in mind
+- Manually configuring everything in a local environment, then learning how to use devcontainers to maintain those configurations across devices.
+- basically becoming a better programmer and creator
 
-A lot of the commits I will be making in the beginning are going to be confusing, but simply staying consistent is my goal for this project.
+Of course this would undoubtedly eventually catch the fancy of a well respected, charismatic and absolute genius (big wrinkly brained) employer.
 
-Gotta make the commit log look impressive one way or another lol
+But I guess I have to settle for the love and passion of being a nerd instead, no big deal. 
+It's not like networking and being an actual member of society would be more effective than this five step plan to enlightenment approach.
