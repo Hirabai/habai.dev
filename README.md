@@ -10,3 +10,8 @@ Learning things like:
 - I'm setting up my dev linux environment of the side, getting to understand more about the "behind the scenes" in programming
 - cool tools like parsers and transcoders
 - Also structure wise, currently reading "How to take smart notes" by Sonke Ahrens and I'm trying to expand on the slip-box concept structure.
+
+## Resources as of july
+- [p5.js Coding Tutorial | Slime Molds (Physarum)
+](https://www.youtube.com/watch?v=VyXxSNcgDtg) By Patt Vira on youtube
+- By extension I am using the [p5.js website](https://p5js.org/) to learn how to create programming animations.
