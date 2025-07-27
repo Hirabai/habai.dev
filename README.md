@@ -23,7 +23,7 @@ The process looks like:
   - writing it down while reading, in fact using the approach in  "How to Take Smart Notes" by Sonke Ahrens, writing down should be the baseline for information management.
 - Once done we would have a satisfiable answer to the original goal mentioned.
 
-This conclude a very basic structure for a production where an idea or goal was processed into an answer. 
+This conclude a very basic structure for production where an idea or goal was processed into an answer. 
 ```
 
 ```
