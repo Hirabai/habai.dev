@@ -34,6 +34,8 @@ This conclude a very basic structure for production where an idea or goal was pr
 
 ## Resources as of july
 - [How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502) by Sönke Ahrens
+- [Lecture 3 - Before the Startup](https://www.youtube.com/watch?v=ii1jcLg-eIQ) a YC lecture given by Paul Graham, he mentioned the "edge case" concept and I'm trying to connect it to content creation or plot-structures in storytelling.
+  The reason why storytelling is so effective in brand and marketing is because they resonate with people, and business is about people.
 - [p5.js Coding Tutorial | Slime Molds (Physarum)
 ](https://www.youtube.com/watch?v=VyXxSNcgDtg) By Patt Vira on youtube
 - By extension I am using the [p5.js website](https://p5js.org/) to learn how to create programming animations.
