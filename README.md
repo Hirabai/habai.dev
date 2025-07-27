@@ -15,3 +15,5 @@ Learning things like:
 - [p5.js Coding Tutorial | Slime Molds (Physarum)
 ](https://www.youtube.com/watch?v=VyXxSNcgDtg) By Patt Vira on youtube
 - By extension I am using the [p5.js website](https://p5js.org/) to learn how to create programming animations.
+- [Create Mesmerizing Generative Art with JavaScript & Three js - Fragmented Cubes
+](https://www.youtube.com/watch?v=yYmbZmYqmlk) by Generative Toaster on youtube
