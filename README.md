@@ -41,3 +41,4 @@ This conclude a very basic structure for production where an idea or goal was pr
 - By extension I am using the [p5.js website](https://p5js.org/) to learn how to create programming animations.
 - [Create Mesmerizing Generative Art with JavaScript & Three js - Fragmented Cubes
 ](https://www.youtube.com/watch?v=yYmbZmYqmlk) by Generative Toaster on youtube
+- ["Paper I Have Loved" by Casey Muratori](https://www.youtube.com/watch?v=SDS5gLSiLg0&t=297s) An amazing talk, watch it if you want
