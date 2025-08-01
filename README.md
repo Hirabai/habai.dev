@@ -21,6 +21,10 @@ Learning things like:
 - [Create Mesmerizing Generative Art with JavaScript & Three js - Fragmented Cubes
 ](https://www.youtube.com/watch?v=yYmbZmYqmlk) by Generative Toaster on youtube
 - ["Paper I Have Loved" by Casey Muratori](https://www.youtube.com/watch?v=SDS5gLSiLg0&t=297s) An amazing talk, watch it if you want
+- kind of a fun one, but the content creation approach here is relevant to what I want to do here: [5 Underrated Building Tips I Learned On My Own
+ by Ikeberg on youtube](https://youtu.be/LTzZLiopfKk)
+- this video also comes to mind: [An Overengineered Solution to a Common Problem in my Minecraft World
+ by JmmiP on youtube](https://www.youtube.com/watch?v=UG0kI5SHSlk&t=978s)
 
 ## Acknowledgements for this learning process
 - The Kubercraft community from the Google Skool platform has been one of the life-savers of my learning journey. Without this community my path for computer science would have taken a whole lot longer.
