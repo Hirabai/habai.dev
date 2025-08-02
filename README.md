@@ -11,20 +11,10 @@ Learning things like:
 - cool tools like parsers and transcoders
 - Also structure wise, currently reading "How to take smart notes" by Sonke Ahrens and I'm trying to expand on the slip-box concept structure.
 
-## Resources as of july
-- [How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking](https://www.amazon.com/How-Take-Smart-Notes-Nonfiction/dp/1542866502) by Sönke Ahrens
-- [Lecture 3 - Before the Startup](https://www.youtube.com/watch?v=ii1jcLg-eIQ) a YC lecture given by Paul Graham, he mentioned the "edge case" concept and I'm trying to connect it to content creation or plot-structures in storytelling.
-  The reason why storytelling is so effective in brand and marketing is because they resonate with people, and business is about people.
-- [p5.js Coding Tutorial | Slime Molds (Physarum)
-](https://www.youtube.com/watch?v=VyXxSNcgDtg) By Patt Vira on youtube
-- By extension I am using the [p5.js website](https://p5js.org/) to learn how to create programming animations.
-- [Create Mesmerizing Generative Art with JavaScript & Three js - Fragmented Cubes
-](https://www.youtube.com/watch?v=yYmbZmYqmlk) by Generative Toaster on youtube
-- ["Paper I Have Loved" by Casey Muratori](https://www.youtube.com/watch?v=SDS5gLSiLg0&t=297s) An amazing talk, watch it if you want
-- kind of a fun one, but the content creation approach here is relevant to what I want to do here: [5 Underrated Building Tips I Learned On My Own
- by Ikeberg on youtube](https://youtu.be/LTzZLiopfKk)
-- this video also comes to mind: [An Overengineered Solution to a Common Problem in my Minecraft World
- by JmmiP on youtube](https://www.youtube.com/watch?v=UG0kI5SHSlk&t=978s)
+## Resources as of August
+- This video's presentation and approach by Marius Ballot is top notch [Procedural 3D Data Trees in Three.js – A Shader & Geometry Breakdown](https://www.youtube.com/watch?v=Of-s4o0EhhI)
+- As well as his website demo [Procedural Growing Structure](https://procedural-growing-structure.netlify.app/)
+- And this [The Book of Shaders](https://thebookofshaders.com/) by  Patricio Gonzalez Vivo and Jen Lowe
 
 ## Acknowledgements for this learning process
 - The Kubercraft community from the Google Skool platform has been one of the life-savers of my learning journey. Without this community my path for computer science would have taken a whole lot longer.
