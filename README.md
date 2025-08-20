@@ -7,6 +7,7 @@ The overall structure is going to be inspired from personal management systems u
 The idea is to turn the good notes into html pages, and then use a bunch of nice graphic libraries to convey the information in whatever way I want.
 There is no personal stress for this project because the overarching purpose is for me to practice providing *quality* work for myself.
 
+Process is going to look like Thought -> essays -> html
 
 Learning things like:
 - how to actually build scripts on my own for models and animations
@@ -20,4 +21,4 @@ Learning things like:
 - And this [The Book of Shaders](https://thebookofshaders.com/) by  Patricio Gonzalez Vivo and Jen Lowe
 
 ## Acknowledgements for this learning process
-- The Kubercraft community from the Google Skool platform has been one of the life-savers of my self-taught journey. I've visited many communities while teachning myself computer science, and this is the only one that helped me really understand how to structure my approach to self-learning. Kudos to Mischa for creating this community.
+- The Kubercraft community from the Google Skool platform has been one of the life-savers of my self-taught journey. I've visited many communities while teachning myself computer science, and this is the only one that helped me really understand how to structure my approach to self-learning.
