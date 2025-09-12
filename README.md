@@ -7,18 +7,15 @@ The overall structure is going to be inspired from personal management systems u
 The idea is to turn the good notes into html pages, and then use a bunch of nice graphic libraries to convey the information in whatever way I want.
 There is no personal stress for this project because the overarching purpose is for me to practice providing *quality* work for myself.
 
-Process is going to look like Thought -> essays -> html
 
 Learning things like:
 - how to actually build scripts on my own for models and animations
-- I'm setting up my dev linux environment on the side, getting to understand more about how computers work under the hood.
+- I'm setting up my dev linux environment on the side. How to configure all my software tools from scratch.
 - cool tools like parsers and transcoders
-- As well as digital design. 
+- I am passionate about designing with data, so using telemitry is on the agenda.
 
-## Resources as of August
-- This video's presentation and approach by Marius Ballot is top notch [Procedural 3D Data Trees in Three.js – A Shader & Geometry Breakdown](https://www.youtube.com/watch?v=Of-s4o0EhhI)
-- As well as his website demo [Procedural Growing Structure](https://procedural-growing-structure.netlify.app/)
-- And this [The Book of Shaders](https://thebookofshaders.com/) by  Patricio Gonzalez Vivo and Jen Lowe
+## Resources as of September
+I'm taking this month to just focus on making money, so there won't be much progress.
 
 ## Acknowledgements for this learning process
 - The Kubercraft community from the Google Skool platform has been one of the life-savers of my self-taught journey. I've visited many communities while teachning myself computer science, and this is the only one that helped me really understand how to structure my approach to self-learning.
