@@ -1,21 +1,19 @@
 # habai.dev
 
 ## What is this project about?
-This project is going to be a website that will display what I learn as I grow.
+This project is going to be a website that will display what I learn.
 
-The overall structure is going to be inspired from personal management systems used to keep track of large amounts of notes.
-The idea is to turn the good notes into html pages, and then use a bunch of nice graphic libraries to convey the information in whatever way I want.
-There is no personal stress for this project because the overarching purpose is for me to practice providing *quality* work for myself.
+The idea is to create practical diagrams using html and other neat graphic libraries.
+There is no agency for this project because the overarching purpose is for me to practice providing *quality* work for myself.
 
 
 Learning things like:
-- how to actually build scripts on my own for models and animations
-- I'm setting up my dev linux environment on the side. How to configure all my software tools from scratch.
-- cool tools like parsers and transcoders
-- I am passionate about designing with data, so using telemitry is on the agenda.
+- how  models and animations work under the hood.
+- I'm setting up my linux environment, learning vim, bash, configuring my dotfiles. That sort of thing.
+- Practicing showing up and being consistent.
 
-## Resources as of September
-I'm taking this month to just focus on making money, so there won't be much progress.
+## News Update as of now
+Been working these past few months. Decided to cleanup and give an update..
 
 ## Acknowledgements for this learning process
 - The Kubercraft community from the Google Skool platform has been one of the life-savers of my self-taught journey. I've visited many communities while teachning myself computer science, and this is the only one that helped me really understand how to structure my approach to self-learning.
