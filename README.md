@@ -17,3 +17,5 @@ Been working these past few months. Decided to cleanup and give an update..
 
 ## Acknowledgements for this learning process
 - The Kubercraft community from the Google Skool platform has been one of the life-savers of my self-taught journey. I've visited many communities while teachning myself computer science, and this is the only one that helped me really understand how to structure my approach to self-learning.
+
+- Three.js Journey by Bruno Simons. One of my biggest bottlenecks right now has been my skills in 3D and in using tools like Three.js. Bruno Simon's course is currently the best way to overcome this obstacle for this project.
