@@ -12,8 +12,8 @@ Learning things like:
 - I'm setting up my linux environment, learning vim, bash, configuring my dotfiles. That sort of thing.
 - Practicing showing up and being consistent.
 
-## News Update as of now
-Been working these past few months. Decided to cleanup and give an update..
+## Note to self
+- sky image needs to be a scene in main.js
 
 ## Acknowledgements for this learning process
 - The Kubercraft community from the Google Skool platform has been one of the life-savers of my self-taught journey. I've visited many communities while teachning myself computer science, and this is the only one that helped me really understand how to structure my approach to self-learning.
