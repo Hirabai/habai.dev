@@ -1,7 +1,8 @@
 import './style.css';
 import * as THREE from 'three';
 
-const width = window.innerWidth, height = window.innerHeight;
+const width = window.innerWidth;
+const height = window.innerHeight;
 
 // Initialization
 const camera = new THREE.PerspectiveCamera( 70, width / height, 0.01, 10 );
@@ -30,5 +31,5 @@ function animate( time ) {
 	mesh.rotation.x = time / 2000;
 	mesh.rotation.y = time / 1000;
 
-	renderer.render( scene, camera );
+	renderer.render( loader, camera );
 }
