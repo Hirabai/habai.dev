@@ -1,4 +1,4 @@
-body {
-	margin: 0;
-  background-image: url('./assets/images/darkened-clear-sky.svg');
+*{
+  margin: 0;
+  padding: 0;
 }
