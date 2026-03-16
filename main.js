@@ -11,7 +11,7 @@ camera.position.z = 1;
 const scene = new THREE.Scene();
 const loader = new THREE.TextureLoader();
 
-loader.load('./assets/images/darkened-clear-sky.webp', function(texture) {
+loader.load('./assets/images/darkened-clear-sky.svg', function(texture) {
   scene.background = texture;
 });
 
