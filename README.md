@@ -1,5 +1,8 @@
 # habai.dev
 
+## NTS
+- use "npm run dev" for live server development
+
 ## What is this project about?
 This project is going to be a website that will display what I learn.
 
