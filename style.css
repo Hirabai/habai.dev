@@ -3,6 +3,10 @@
   padding: 0;
 }
 
-body{
-  background-image: url("./Public/images/darkened-clear-sky.webp")
+html, body{
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
 }

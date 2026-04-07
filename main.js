@@ -1,8 +1,7 @@
 import './style.css';
 import * as THREE from 'three';
-import { SVGLoader } from 'three/addons/loaders/SVGLoader.js';
-import { FontLoader } from 'three/addons/loader/FontLoader.js';
-import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js'
+
 
 
 // Window size
@@ -13,15 +12,24 @@ const height = window.innerHeight;
 const camera = new THREE.PerspectiveCamera( 70, width / height, 0.01, 10 );
 camera.position.z = 1;
 
-// Initializing scene, fonts, and other three.js functions
 const scene = new THREE.Scene();
-const loader = new FontLoader();
+scene.background = new THREE.Color('#000000');
+
+const loader = new THREE.TextureLoader();
+loader.load('./Public/images/darkened-clear-sky.webp', (texture) => { scene.background = texture; });
 
 
-const font = await loader.loadAsync('./Public/fonts/helvetiker_regular.typeface.json');
-const geometry = new TextGeometry( "habai", {
+const geometry = new THREE.TextGeometry('habai.mk', {
   font: font,
-  size: 80,
-  depth: 5,
-  curveSegments: 12
+  size: 3,
+  height: 0.5,
+  curveSegments: 4
 });
+geometry.center();
+
+const material = new THREE.MeshPhongMaterial({color: '#ffffff', specular: '#ffffff' });
+
+const mesh = new THREE.Mesh(geometry, material);
+mesh.name = "habai.mk";
+
+scene.add(mesh);
