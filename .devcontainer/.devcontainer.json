@@ -1,8 +1,0 @@
-{
-	"name": "Three.js and Vite Project",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
-	"forwardPorts": [5173],
-  "postCreateCommand": "git clone git@github.com:Hirabai/dotfiles.git ~/.dotfiles"
-}
